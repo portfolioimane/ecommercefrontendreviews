@@ -1,0 +1,74 @@
+.product-card {
+    border: 1px solid #dee2e6;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.wishlist-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.wishlist-icon:hover {
+    transform: scale(1.1);
+}
+
+.added {
+    background: rgba(255, 0, 0, 0.3); /* Light red background when added */
+}
+
+.golden-button {
+    background-color: #DAA520 !important; /* Gold color */
+    border-color: #DAA520 !important;
+    color: white !important; /* Change text color if needed */
+}
+
+.golden-button:hover {
+    background-color: #b5941b !important; /* Darker gold on hover */
+    border-color: #b5941b !important;
+}
+
+
+.icon{
+    width:40px !important;
+    height:40px !important;
+    margin-bottom:20px;
+}
+
+.review-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.review-card .card-title {
+    font-size: 1.25rem;
+}
+
+.review-card .card-text {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.review-card .text-center {
+    margin-top: 15px;
+}
+
+.review-card .star-rating {
+    color: #DAA520;
+    font-size: 1.5em;
+}
